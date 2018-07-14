@@ -8,7 +8,7 @@ install:
 before_script:
   - python setup.py develop
 script:
-  - nosetests --nocapture --with-coverage --cover-package=a_project
+  - nosetests --nocapture
 after_success:
   - coveralls
 deploy:
