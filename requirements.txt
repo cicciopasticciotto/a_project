@@ -1,3 +1,3 @@
 six
 -e git://github.com/materialsproject/maggma#egg=maggma
--e git://github.com/abinit/abipy@maggma#egg=abipy
+-e git://github.com/abinit/abipy#egg=abipy
