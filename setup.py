@@ -8,15 +8,13 @@ module_dir = os.path.dirname(os.path.abspath(__file__))
 
 if __name__ == "__main__":
     setup(
-        name='test_travis',
+        name='a_project',
         version="0.1",
         description='Description',
         long_description=open(os.path.join(module_dir, 'README.md'),encoding='utf-8').read(),
         long_description_content_type="text/markdown",
-        url='https://github.com/asdrubaleblabla/test_travis',
+        url='https://github.com/cicciopasticciotto/a_project',
         author='Someone',
-        #author_email='matproj-develop@googlegroups.com',
-        #license='modified BSD',
         packages=find_packages(),
         include_package_data=True,
         zip_safe=False,
