@@ -1,0 +1,19 @@
+language: python
+python:
+  - "3.6"
+install:
+  - pip install -r requirements.txt
+  - pip install coverage
+  - pip install python-coveralls
+before_script:
+  - python setup.py develop
+script:
+  - nosetests --nocapture --with-coverage --cover-package=emmet
+after_success:
+  - coveralls
+deploy:
+  provider: pypi
+  user: cicciopasticciotto
+  distributions: sdist bdist_wheel
+  on:
+    tags: true
