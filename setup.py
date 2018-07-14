@@ -22,7 +22,7 @@ if __name__ == "__main__":
         zip_safe=False,
         install_requires=[
             #'atomate', 'abipy>=0.4.1', 'pymatgen>=2018.4.20', 'maggma','monty',
-            'six', #'pydash', 'tqdm', 'matminer',
+            'six', "numpy"#'pydash', 'tqdm', 'matminer',
             #'prettyplotlib', 'pybtex', 'networkx', 'sumo',
         ],
         classifiers=["Programming Language :: Python :: 3",
