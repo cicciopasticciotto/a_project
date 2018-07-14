@@ -1,2 +1,2 @@
-numpy
 six
+-e git://github.com/materialsproject/maggma#egg=maggma
