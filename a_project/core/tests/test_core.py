@@ -7,5 +7,7 @@ class TestSleep(unittest.TestCase):
         a_sleep_function()
 
     def test_plot(self):
+        from matplotlib import rc
+        rc('text', usetex=False)
         plot_something()
         
