@@ -5,6 +5,8 @@ install:
   - pip install -r requirements.txt
   - pip install coverage
   - pip install python-coveralls
+  - mkdir -p ${HOME}/.abinit/abipy 
+  - cp /home/travis/virtualenv/python3.6.3/lib/python3.6/site-packages/abipy/dev_scripts/travis_manager.yml ${HOME}/.abinit/abipy/manager.yml
 before_script:
   - python setup.py develop
 script:
