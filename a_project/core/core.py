@@ -7,6 +7,9 @@ import matplotlib
 from pymatgen.util.plotting import pretty_plot
 
 
+matplotlib.use('agg')
+
+
 def a_sleep_function():
     print("!!! ", abipy.__file__)
     abipy.abilab.TaskManager.from_user_config()
