@@ -16,7 +16,7 @@ def a_sleep_function():
     time.sleep(1)
 
 def plot_something():
-    matplotlib.rc('text', usetex=True)
+    matplotlib.rc('text', usetex=False)
     matplotlib.rc('font', family='serif')
     
     plt = pretty_plot(6, 5.5)
