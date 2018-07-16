@@ -19,3 +19,11 @@ deploy:
   distributions: sdist bdist_wheel
   on:
     tags: true
+addons:
+  apt:
+    packages:
+      - dvipng
+      - texlive-fonts-recommended
+      - texlive-latex-base
+      - texlive-latex-extra
+      
