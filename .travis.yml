@@ -22,7 +22,6 @@ deploy:
 addons:
   apt:
     packages:
-      - dvipng
       - texlive-fonts-recommended
       - texlive-latex-base
       - texlive-latex-extra
