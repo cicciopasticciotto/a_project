@@ -1,5 +1,7 @@
 import time
+import os
 import six
+import sys
 import maggma
 import abipy
 import abipy.abilab 
@@ -26,3 +28,6 @@ def plot_something():
     plt.tight_layout()
     
     return plt
+
+def another_func():
+    pass
